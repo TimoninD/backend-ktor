@@ -1,0 +1,1 @@
+web: ./build/install/ru.randik.backend-sample/bin/ru.randik.backend-sample

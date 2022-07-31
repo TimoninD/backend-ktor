@@ -7,6 +7,7 @@ import ru.randik.plugins.*
 fun main() {
     embeddedServer(CIO, port = 8080, host = "0.0.0.0") {
         configureSockets()
-        configureRouting()
+        configureSignUp()
+        configureSerialization()
     }.start(wait = true)
 }
